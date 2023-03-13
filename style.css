@@ -417,6 +417,7 @@ a {
 .project-number-left {
     left: -40px;
     top: -45px;
+
 }
 
 .project-content {
@@ -444,7 +445,19 @@ a {
     flex-wrap: wrap;
     width: 60%;
     gap: 10px;
+    margin-left: 50px;
     transition: all;
+}
+
+.trail {
+    margin-left: 15%;
+}
+
+.trail1 {
+    margin-left: 30%;
+    display: flex;
+    gap: 10px;
+
 }
 
 .project-skill {
@@ -498,17 +511,21 @@ a {
 
 #project2 {
     margin-left: 120px;
-    background-image: url(./images/projects/BBS.png);
+    background-image: url(./images/projects/Discord.png);
 }
 
 #project3 {
-    background-image: url(./images/projects/MordenChair.png);
-  
+    background-image: url(./images/projects/Razor.png);
+
 }
 
 #project4 {
     margin-left: 120px;
-    background-image: url(./images/projects/Razor.png);
+    background-image: url(./images/projects/MordenChair.png);
+}
+
+#project5 {
+    background-image: url(./images/projects/Image.png);
 }
 
 @media(max-width:1300px) {
