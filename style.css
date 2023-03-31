@@ -450,7 +450,7 @@ a {
 }
 
 .trail {
-    margin-left: 15%;
+    margin-left: 25%;
 }
 
 .trail1 {
@@ -526,6 +526,11 @@ a {
 
 #project5 {
     background-image: url(./images/projects/Image.png);
+}
+
+#project6 {
+    margin-left: 120px;
+    background-image: url(./images/projects/Weather.png);
 }
 
 @media(max-width:1300px) {
