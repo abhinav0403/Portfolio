@@ -460,6 +460,17 @@ a {
 
 }
 
+.trail2 {
+    margin-right: 25%;
+}
+
+.trail3 {
+    margin-right: 30%;
+    display: flex;
+    gap: 10px;
+
+}
+
 .project-skill {
     width: 40px;
 }
@@ -577,19 +588,30 @@ a {
     }
 
     .project-subHeading {
-        width: 100%;
+        width: 150%;
     }
 
     #project2 {
-        margin-left: 0;
+        margin-left: -13px;
     }
 
     #project4 {
-        margin-left: 0;
+        margin-left: -13px;
+    }
+
+    #project6 {
+        margin-left: -13px;
     }
 
     .project-skills-container {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        width: 60%;
+        gap: 10px;
+        margin-left: -210px;
+        transition: all;
+        top: -50px;
+        position: absolute;
     }
 
     .project-skill {
@@ -671,6 +693,28 @@ a {
         width: 50%;
     }
 
+    .trail{
+        margin-left: -55%;
+    }
+
+    .trail2{
+        margin-left: -55%;
+    }
+
+    .faded-text {
+        user-select: none;
+        font-size: 2.5em;
+        color: rgb(231, 231, 231);
+        bottom: -11%;
+        left: 1%;
+        font-weight: bold;
+        transition: all 3s;
+    }
+
+    .hero-section-sub-heading {
+        font-size: 25px;
+        line-height: 45px;
+    }
    
 }
 
